@@ -13,16 +13,16 @@
   width: 100vw;
   height: 70vh;
   background-color: white;
-  box-shadow: 0 5rem 50px white;
+  box-shadow: 0 5rem 4rem white;
   position:relative;
   top: 0px;
   
 }
 .home_heroSection h1{
-  font-size: 4rem;
+  font-size: 64px;
   position: relative;
-  top: -9rem;
-  left: 2rem;
+  top: -144px;
+  left: 32px;
   /* color: var(--sfRed); */
 }
 
@@ -36,14 +36,14 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  font-size: 4rem;
+  font-size: 64px;
   text-align: right;
   border: 7px solid rgb(255, 174, 11);
   border-radius: 144px;
   position: relative;
   z-index: 1;
-  top: -10rem;
-  left: 18rem;
+  top: -160px;
+  left: 468px;
   width: 60rem;
   flex-direction: column;
   padding: 2.5rem 2.5rem 1rem 2.5rem;
@@ -72,7 +72,7 @@
 
 .GatitoRender{
   position: absolute;
-  top: -.5rem;
+  top: -8px;
   height: 120%;
   z-index: 10;
 }
@@ -85,6 +85,7 @@
   border-radius: 2%;
   box-shadow: 10px 6px 30px black;
 }
+
 .features h1{
   margin: 2rem 2rem 1rem 2rem;
   font-size: 3rem;
@@ -94,6 +95,7 @@
   margin: 1rem 2rem 0 2rem;
   width: 300px;
 }
+
 #feat1Img{
   width: 500px;
 }
@@ -105,9 +107,11 @@
   text-align: center;
   font-size: 2rem;
 }
+
 .feat2{
   flex-direction: row-reverse;
 }
+
 #uc{
   font-weight: bold;
   font-size: 3rem;
@@ -122,16 +126,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 2rem;
-  padding: 2rem 0;
+  margin: 0 32px;
+  padding: 32px 0;
   background-color: hsla(0, 0%, 100%, 0.5);
+  box-shadow: 10px 6px 10px 0 black;
   border-radius: 2%;
 }
 #shortDesc{
   text-align: center;
-  padding: 1rem;
-  font-size: 1.5rem;
-  width: 70rem;
+  padding: 16px;
+  font-size: 24px;
+  width: 1120px;
   border: 5px solid var(--sfBlue);
   background-color: white;
 }
@@ -139,9 +144,9 @@
   margin: 0 auto;
 }
 #ourGit{
-  padding: 1rem;
+  padding: 16px;
   background-color: var(--sfBlue);
-  font-size: 3rem;
+  font-size: 48px;
   border: 5px solid hsl(201, 100%, 45%);
 }
 #ourGit:hover{
