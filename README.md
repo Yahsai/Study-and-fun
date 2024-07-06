@@ -115,7 +115,7 @@ The game's frontend is built with HTML, CSS, and JavaScript. Here's an overview 
 
 ### Main Page (index.html)
 
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -135,7 +135,9 @@ The game's frontend is built with HTML, CSS, and JavaScript. Here's an overview 
     <script src="script.js"></script>
 </body>
 </html>
-####Game Page (game.html)
+
+### Game Page (game.html)
+
 html
 
 <!DOCTYPE html>
@@ -156,7 +158,9 @@ html
     <script src="script.js"></script>
 </body>
 </html>
-####About Us Page (about_us.html)
+
+### About Us Page (about_us.html)
+
 html
 
 <!DOCTYPE html>
@@ -175,10 +179,12 @@ html
     </main>
 </body>
 </html>
-CSS Styles
+
+### CSS Styles
+
 The project styles are divided into several CSS files:
 
-####styles.css
+#### styles.css
 css
 
 @import url("https://use.typekit.net/kbu5ehi.css");
@@ -208,7 +214,8 @@ h1{
 }
 
 /* More styles... */
-####game.css
+
+#### game.css
 css
 
 #game {
@@ -228,7 +235,7 @@ css
 }
 
 /* More styles... */
-####about_us.css
+#### about_us.css
 css
 
 @import url(./styles.css);
@@ -248,7 +255,9 @@ css
 }
 
 /* More styles... */
-###Game Logic
+
+### Game Logic
+
 The game logic is implemented in JavaScript. Here's a summary of the main functions:
 
 javascript
@@ -280,12 +289,13 @@ function nextStage() {
 
 window.onload = startGame;
 
-###Tests
+### Tests
+
 To run the tests, use the following command:
 
 
 npm test
-Test examples:
+#### Test examples:
 
 javascript
 
@@ -318,7 +328,9 @@ describe('Scores API', () => {
     expect(res.body).toHaveProperty('score', 100);
   });
 });
-###Project Challenges
+
+### Project Challenges
+
 During the project, we faced significant challenges:
 
 Building a game in a programming language initially unfamiliar.
@@ -328,12 +340,12 @@ Balancing campus obligations with project work.
 Limitations on working on game art off-campus due to Cintiq use.
 Despite these challenges, we managed to make progress on multiple fronts, demonstrating effective management skills.
 
-###Collaboration
+### Collaboration
 The team maintains constant communication through:
 
 Daily meetings for updates
 Immediate communication via WhatsApp for issues or ideas
 Regular updating of the Trello board
 
-###Contribution
-Robert Santana 
+### Contribution
+Robert Santana, Angelo Garcia, Yahsai Santana
