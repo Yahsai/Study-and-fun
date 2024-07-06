@@ -1,4 +1,4 @@
-# Study and Fun
+![Study and Fun logo](public/resources/images/BannerLogo_blue.png)
 
 ## Project Description
 
