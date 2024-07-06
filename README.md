@@ -120,7 +120,7 @@ The game's frontend is built with HTML, CSS, and JavaScript. Here's an overview 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Kitten Who Wanted to Be a Lion</title>
+    <title>El gatito que queria ser leon</title>
     <link rel="stylesheet" href="./resources/styles/styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../public/icons/favicon.ico">
     <link rel="manifest" href="/site.webmanifest">
