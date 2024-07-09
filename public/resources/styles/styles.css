@@ -3,6 +3,7 @@
 @import url('./home.css');
 @import url('./game.css');
 @import url('./about_us.css');
+@import url('./login.css');
 
 :root{
   --sfBlue: #4FC2FF;
@@ -22,11 +23,6 @@ body {
   background-image: url(../images/BG_Lines.png);
   background-size: auto 50vh;
 }
-
-h1{
-  font-family:"basenji-variable";
-}
-
 header{
   display: flex;
   width: 100vw;
@@ -40,6 +36,25 @@ header{
 }
 .header_nav{
   display: flex;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  border-style: none;
+  border-radius: 5%;
+  font-size: 1.5rem;
+  background-color: white;
+  color: var(--sfBlue);
+  height:50px;
+  width: 100px;
+  margin: 16px;
+  position: relative;
+  z-index: 99;
+}
+h1{
+  font-family:"basenji-variable";
 }
 
 ul{

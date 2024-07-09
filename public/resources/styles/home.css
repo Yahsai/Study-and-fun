@@ -76,7 +76,9 @@
   height: 120%;
   z-index: 10;
 }
-
+#juegaAhora:hover{
+  color: white;
+}
 .features{
   margin: auto 2rem;
   padding: 2rem;

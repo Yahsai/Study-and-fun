@@ -1,0 +1,35 @@
+.loginPage{
+  display: flex;
+  width: 500px;
+}
+
+.register_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  height: 700px;
+  width: 500px;
+  margin: 3rem auto;
+  border: 5px solid var(--sfBlue);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.register_form h1{
+  margin: 1rem;
+}
+
+input{
+  width: 100%;
+}
+
+#Gatito_register{
+  position: relative;
+  top: -20px;
+  left: 36px;
+  height: 605px;
+  width: fit-content;
+  rotate: 10deg;
+  /* border: 1px solid black; */
+}
