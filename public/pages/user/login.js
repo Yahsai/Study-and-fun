@@ -1,5 +1,13 @@
 // Access the form element
 const form = document.querySelector('form');
+const registerBox = document.querySelector('.register_box')
+const formSubmitted = document.querySelector('.formSubmitted')
+
+function hideForm(){
+  registerBox.style.display = 'none';
+  formSubmitted.style.display = 'block';
+  formSubmitted.style.margin = '1rem auto';
+}
 
 // Add an event listener for the form submission
 form.addEventListener('submit', function(event) {
@@ -39,5 +47,7 @@ form.addEventListener('submit', function(event) {
     // In a real application, you might submit the form data using fetch() or XMLHttpRequest
     console.log('Form is valid. Submitting form...');
     // form.submit(); // Uncomment this line to submit the form programmatically
+    hideForm();
   }
+
 });

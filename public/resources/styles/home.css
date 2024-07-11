@@ -110,14 +110,6 @@
 .feat2{
   flex-direction: row-reverse;
 }
-#uc{
-  font-weight: bold;
-  font-size: 3rem;
-  color: red;
-  position: relative;
-  left: 35rem;
-  rotate: 30deg;
-}
 
 .aboutUs{
   display: flex;

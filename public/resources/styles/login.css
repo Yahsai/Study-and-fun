@@ -19,7 +19,12 @@
 .register_form h1{
   margin: 1rem;
 }
-
+.formSubmitted{
+  display: none;
+}
+.register_box{
+  display: block;
+}
 input{
   width: 100%;
 }
@@ -31,5 +36,4 @@ input{
   height: 605px;
   width: fit-content;
   rotate: 10deg;
-  /* border: 1px solid black; */
 }
