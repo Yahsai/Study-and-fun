@@ -13,7 +13,7 @@ const myHeader = elementfromHTML(`
             <nav>
                 <ul>
                     <li><a href="#Home">Hogar</a></li>
-                    <li><a href="./public/EL Gatito 0.3/index.html">Juego</a></li>
+                    <li><a href="./public/El Gatito 0.4/index.html">Juego</a></li>
                     <li><a href="#AboutUs">Sobre Nosotros</a></li>
                 </ul>
             </nav>
