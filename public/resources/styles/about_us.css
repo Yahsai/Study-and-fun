@@ -15,30 +15,20 @@
 }
 
 .aboutUs_portraitContainer{
-  display: block;
+  display: flex;
   flex-direction: column;
-  align-items: baseline;
-  margin: 1rem;
+  align-items: center;
+  text-align: center;
   width: 500px;
 }
-
-.portrait_items{
-  display: flex;
-  position: relative;
-  top: -100;
-  justify-content: space-around;
-}
-
 .aboutUs_portraitInfo{
-  position: relative;
-  display: block;
-  width: 250px;
-  margin: .5rem 1rem;
+  width: 340px;
   font-size: 1.5rem;
-  height: 100px;
   color: var(--sfBlue);
 }
-
+.aboutUs_portraitInfo svg {
+  margin: 0 4rem;
+}
 
 .aboutUs_portrait img {
   width: 300px;
